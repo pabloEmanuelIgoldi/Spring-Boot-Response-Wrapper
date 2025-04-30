@@ -9,7 +9,6 @@ El Response Wrapper es básicamente una clase envoltorio (wrapper) que se utiliz
 
 #  **Ventajas**
 
-La unificación de la estructura de respuesta mejora en:
 - Consistencia: Todas las respuestas siguen el mismo formato. Unifica la estructura de respuesta.
 - Extensibilidad: Puedes añadir campos adicionales fácilmente(por ejemplo en paginación).
 - Mejora experiencia para clientes de la API: es una estructura predecible en las respuestas.

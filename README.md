@@ -1,3 +1,13 @@
+# **Response Uniforme**
+
+# Índice
+### Definición del proyecto
+### Patrón Response Wrapper
+### Ventajas
+### Estructura de respuesta
+### Curls de prueba
+### Índice de proyectos Spring Boot
+
 #  **Definición del proyecto**
 
 Demostración de una aplicación que implementa el Patrón Response Wrapper.
@@ -5,7 +15,7 @@ Demostración de una aplicación que implementa el Patrón Response Wrapper.
 #  **Patrón Response Wrapper**
 
 El patrón Response Wrapper es una práctica para las respuestas HTTP de una API. 
-El Response Wrapper es básicamente una clase envoltorio (wrapper) que se utiliza para que todas las respuestas de tu API sigan una estructura uniforme, independientemente de si la respuesta es exitosa o si ocurre un error.
+Es básicamente una clase envoltorio (wrapper) que se utiliza para que todas las respuestas de tu API sigan una estructura uniforme, independientemente de si la respuesta es exitosa o si ocurre un error.
 
 #  **Ventajas**
 
@@ -25,7 +35,10 @@ Atributos:
 - timestamp: momento de la respuesta.
 - data: el cuerpo real de la respuesta (los datos solicitados).
 
-#  **Curls de prueba:**
+#  **Curls de prueba**
+
+Se puede probar ejecutando con Curl las siguiente sentencias:
+
 
 curl http://localhost:8080/v1/demo/ok
 
@@ -44,9 +57,15 @@ curl -X POST -H "Content-Type: application/json" -d "{ \"nombre\": \"foo\" , \"p
 
 
 
+
 curl -X POST -H "Content-Type: application/json" -d "{ \"nombre\": \"foo\" , \"precio\": \"12567.0\" }" http://localhost:8080/v1/demo/bad-request
 
 
 
 curl -X POST -H "Content-Type: application/json" -d "{ \"nombre\": \"foo\" , \"precio\": \"12567.0\" }" http://localhost:8080/v1/demo/exists
 
+
+# Índice de proyectos Spring Boot
+- [Response Uniforme](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Response-Wrapper)
+- [LogaBack](https://github.com/pabloEmanuelIgoldi/applogback)
+- [Profile](https://github.com/pabloEmanuelIgoldi/appProfile)

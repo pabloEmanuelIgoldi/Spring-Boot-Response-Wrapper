@@ -67,5 +67,5 @@ curl -X POST -H "Content-Type: application/json" -d "{ \"nombre\": \"foo\" , \"p
 
 # Índice de proyectos Spring Boot
 - [Response Uniforme](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Response-Wrapper)
-- [LogBack](https://github.com/pabloEmanuelIgoldi/applogback)
-- [Profile](https://github.com/pabloEmanuelIgoldi/appProfile)
+- [LogBack](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Logback)
+- [Profile](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Profile)

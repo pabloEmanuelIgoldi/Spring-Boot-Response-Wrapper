@@ -70,3 +70,4 @@ curl -X POST -H "Content-Type: application/json" -d "{ \"nombre\": \"foo\" , \"p
 - [LogBack](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Logback)
 - [Profile](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Profile)
 - [Spring Doc](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Swagger)
+- [Validate](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Validate)

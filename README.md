@@ -76,3 +76,5 @@ curl -X POST -H "Content-Type: application/json" -d "{ \"nombre\": \"foo\" , \"p
 - [Inter-Service Communication](https://github.com/pabloEmanuelIgoldi/Spring-Boot-Inter-Service-Communication)
 ##  **Proyectos Spring Data**
 - [Spring Data + Redis(Cache)](https://github.com/pabloEmanuelIgoldi/Spring-Data-Redis)
+- [Spring Data + Mongo DB (NoSQL)](https://github.com/pabloEmanuelIgoldi/Spring-Data-Mongo)
+
